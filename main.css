@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 50px 500px;
+    text-align: cener;
+}
+
+.form-campo {
+    max-width: 320px;
+    margin-bottom: 16px;
+}
+
+.form-campo input{
+    width: 100%;
+    display: block;
+    padding: 6px;
+}
