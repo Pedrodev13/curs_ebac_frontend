@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="carousel-icon" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2016/01/08/11/57/butterflies-1127666_1280.jpg" alt="">
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_1280.jpg" alt="">
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg" alt="">
+            </div>
+        </div>
+        <button data-bs-target="#carousel-icon" class="carousel-control-prev" data-bs-slide="prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-icon" class="carousel-control-next" data-bs-slide="next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <section class="conteudo-central">
+        <h1 class="container">Conteudo</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <thead class="card-thead">
+                            Informação
+                        </thead>
+                        <img src="https://via.placeholder.com/100x100" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Cards do bootstrap</h4>
+                            <p class="card-text">Conheça os cards do Bootstrap</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>10/08/2022 àS 19h</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <thead class="card-thead">
+                            Informação
+                        </thead>
+                        <img src="https://via.placeholder.com/100x100" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Cards do bootstrap</h4>
+                            <p class="card-text">Conheça os cards do Bootstrap</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>10/08/2022 àS 19h</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <thead class="card-thead">
+                            Informação
+                        </thead>
+                        <img src="https://via.placeholder.com/100x100" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Cards do bootstrap</h4>
+                            <p class="card-text">Conheça os cards do Bootstrap</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>10/08/2022 àS 19h</time>
+                        </footer>
+                    </article>
+                </div>
+            
+            </div>
+    </section>
+    
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</body>
+</html>
