@@ -10,32 +10,36 @@ section h1{
 
 .conteudo-central{
     display: grid;
+    margin-bottom: 24px;
 }
 
+.card-img-overlay-1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
-/*@media screen and (min-width: 768px) and (max-width: 1023px){
-    .conteudo-central{
-        max-width: 80%;
-        width: 100%;
-    }
+.card-img-overlay-2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
-    .container{
-        max-width: 80%;
-        width: 100%;
-    }
+.card-img-overlay-3{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
-    .container .row{
-        display: grid;
-        grid-template-columns: repeat(2, 100%);
-        row-gap: 5%;
-    }
-}*/
+.final{
+    background-color: rgb(0, 89, 255);
+    width: 100%;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
 
 @media screen and (max-width: 667px){
     .container{
         display: block;
-        max-width: 90%;
-        width: 100%;
     }
 
     .col-sm-12{
@@ -44,10 +48,7 @@ section h1{
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px){
-    .container{
-        max-width: 90%;
-        width: 100%;
-    }
+
     .col-md-6{
         margin-bottom: 24px;
     }
